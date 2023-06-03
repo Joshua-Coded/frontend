@@ -5763,8 +5763,17 @@ a.close.disabled {
   padding: 1rem;
 }
 
+/* CONTACT PAGE  */
+
+.contact__background {
+  background-color: black;
+  font-size: 10px;
+  max-width: 100%;
+  
+}
 .modal-footer {
   display: flex;
+  background-color: red !important;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
@@ -7875,6 +7884,7 @@ button.bg-dark:focus {
 .mt-n1,
 .my-n1 {
   margin-top: -0.25rem !important;
+  
 }
 
 .mr-n1,
