@@ -3698,9 +3698,9 @@
     text-align: right !important;
   }
   
-  .text-center {
+  /* .text-center {
     text-align: center !important;
-  }
+  } */
   
   @media (min-width: 576px) {
     .text-sm-left {
@@ -4072,7 +4072,6 @@
     border: none;
     display: flex;
     height: 350px;
-    width: 350px;
   }
   
   .purple:hover{
@@ -4262,8 +4261,8 @@
   }
   
   .smll{
-    background-color: #575DCB;
-    color: #575DCB;
+    background-color: grey;
+    color: white;
   }
   
   .sml{
