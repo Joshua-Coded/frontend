@@ -4062,11 +4062,34 @@
   } 
   
   
-   .purple{
+   .purple {
     background-color: grey;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
+   
+    /* line-height: 2px; */
+    /* font-size: 20px; */
+
   }
+
+  .py {
+    /* background-cocololor: red; */
+color: goldenrod;
+    margin: 50px;
+    padding: 100px;
+font-size: 25px;
+margin-top: -100px;
+  }
+
+  .middle__man .py:hover {
+    color: gray;
+    transition: ease-in;
+  }
+  
+  .imaging__text {
+    /* background-color: red; */
+  }
+  
 
   .purple .img-fluid  {
     border: none;
@@ -4097,8 +4120,8 @@
   }
   
   .orange:hover{
-    background-color: #fff;
-    color: #F99523;
+    background-color: goldenrod;
+    color: grey;
   }
   
   .orange2{
@@ -4269,7 +4292,7 @@
     color: #F99523;
     border: 1px solid #F99523;
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
     /* margin-left: 10px; */
   }

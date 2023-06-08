@@ -438,6 +438,47 @@ mark,
   }
 }
 
+.about__background {
+  background-image: url("../img/about_1.png");
+  margin: auto !important;
+  text-align: center !important;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin: auto !important;
+  /* background-color: red; */
+}
+
+.about__background h1 {
+  font-size: 50px;
+  color: goldenrod !important;
+  /* margin-top: -50px; */
+}
+
+.about__background  p {
+  font-size: 25px;
+  /* margin-top: 300px; */
+  color: goldenrod !important;
+  line-height: 2;
+}
+
+.image {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(4px);
+  height: 100vh;
+	width: 50%;
+}
+
+.more {
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  padding-top: 300px;
+}
+
 /* .jumbotron { */
   /* background: linear-gradient(#eecc00(255,206,0), #b49100(204,175,1)); */
    /* url(../img/Images.png), no-repeat center center; */
