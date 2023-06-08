@@ -4063,12 +4063,20 @@
   
   
    .purple{
-    background-color: #2C318F;
+    background-color: grey;
     border: none;
+    border-radius: 5px;
+  }
+
+  .purple .img-fluid  {
+    border: none;
+    display: flex;
+    height: 350px;
+    width: 350px;
   }
   
   .purple:hover{
-    background-color: #2C318F;
+    background-color: #e9d66b;
     color: #fff;
   }
   
