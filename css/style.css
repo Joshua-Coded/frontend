@@ -524,15 +524,22 @@ mark,
   margin: 10px;
 }
 
-.footer__me {
-  background-color: grey !important;
-  /* display: flex !important; */
-  /* flex-direction: row !important; */
-  /* margin: 100px auto; */
-  /* justify-content: space-around !important; */
-  /* align-items: center !important; */
-  /* padding: 50px; */
-  font-size: 20px;
+
+.media__col {
+  /* background-color: red !important; */
+  display: flex !important;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.media__col .media {
+  margin-right: -500px !important;
+ 
+}
+
+.media__col a {
+  margin-right: 5px !important;
+ 
 }
 
 /* .my__footer .text-footer { */
