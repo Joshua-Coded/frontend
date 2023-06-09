@@ -479,13 +479,54 @@ mark,
   padding-top: 300px;
 }
 
-/* .jumbotron { */
-  /* background: linear-gradient(#eecc00(255,206,0), #b49100(204,175,1)); */
-   /* url(../img/Images.png), no-repeat center center; */
-  /* background: url(../img/donate.png), no-repeat center center; */
-  /* background-size: cover; */
-  /* height: 70vh; */
- /* } */
+
+.team__leaders {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* max-width: 100px; */
+  overflow: hidden;
+}
+
+.team__leaders span  img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.my__row img {
+/* background-color: red; */
+margin: 10px auto;
+/* display: flex; */
+/* margin-right: -650px; */
+/* justify-content: space-evenly; */
+
+}
+
+.my__row  .my__team  {
+  /* background-color: red; */
+  /* margin-right: -100px; */
+  /* margin: 5px; */
+  margin-right: 50px;
+  margin-left: 150px;
+  /* display: flex; */
+
+}
+ 
+.header__contact {
+  background-color: red !important;  
+  height: 500px;
+  width: 100%;
+  margin-top: -65px;
+}
+ /* .jumbotron { 
+   background: linear-gradient(#eecc00(255,206,0), #b49100(204,175,1))
+    url(../img/Images.png), no-repeat center center; 
+   background: url(../img/donate.png), no-repeat center center; 
+   background-size: cover; 
+   height: 70vh; 
+  }  */
 
 
 /* .jumbotron.page-header { */
